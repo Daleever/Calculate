@@ -1,10 +1,11 @@
-class AdvancedCalc(OrdinaryCalc):
+from OrdinaryCalc import OrdinaryCalc
 
-    def TransformToKBite(self,Bite):
+class AdvancedCalc (OrdinaryCalc):
+
+    def TransformToKBite(self, Bite):
         self.KBite = Bite * 0.0009765625
 
-    def getKBite(self):
+
+    def getKBite (self):
         return self.KBite
-    
-        
-    
+
