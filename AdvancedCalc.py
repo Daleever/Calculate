@@ -1,5 +1,6 @@
 from OrdinaryCalc import OrdinaryCalc
 
+
 class AdvancedCalc (OrdinaryCalc):
 
     def TransformToKBite(self, Bite):

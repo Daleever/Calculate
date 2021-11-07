@@ -1,5 +1,8 @@
 class OrdinaryCalc:
 
+    num1 = float
+    num2 = float
+
     def set_num1(self, num1):
         self.num1 = num1
 
